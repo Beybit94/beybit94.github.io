@@ -74,7 +74,7 @@
         білікті лекторлармен классикалық ислам ілімдерін үйрен
       </p>
       <h2></h2>
-      <a href="#about" class="btn-get-started">Оқуды бастау</a>
+      <a class="btn-get-started" href="#" data-toggle="modal" data-target="#exampleModal">ОҚУДЫ БАСТАУ</a>
     </div>
   </section><!-- #hero -->
 
@@ -110,12 +110,13 @@
             </div>
 
             <div class="icon-box wow fadeInUp" data--wowodelay="0.6s">
-              <h4 class="title"><a href="">- Араб тілін үйреніп, бірақ кітаптарды оқыған кезде грамматикалық тұрғыдан қателік жіберетін кісілерге</a></h4>
+              <h4 class="title"><a href="">- Араб тілін үйреніп, бірақ кітаптарды оқыған кезде грамматикалық тұрғыдан
+                  қателік жіберетін кісілерге</a></h4>
             </div>
 
             <div class="icon-box wow fadeInUp" data--wowodelay="0.6s">
               <h4 class="title"><a href="">- Басқа мамандықтың иесі болса да, еліміздегі түрлі ағымдарға қарсы рухани
-                  иммунитетін қалыптастырғысы келетін жандарға</a></h4>
+                  иммунитетін қалыптастырғысы келетін талапкерлерге</a></h4>
             </div>
           </div>
 
@@ -223,7 +224,7 @@
             </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#" data-toggle="modal" data-target="#exampleModal">Бізге қосылыңыз</a>
+            <a class="cta-btn align-middle" href="#" data-toggle="modal" data-target="#exampleModal">ОҚУДЫ БАСТАУ</a>
           </div>
         </div>
       </div>
@@ -231,18 +232,51 @@
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title text-center text-danger" id="exampleModalLabel">Каспи банк картасы арқылы төлем жасау</h5>
+              <h5 class="modal-title text-center" id="exampleModalLabel">Тіркелу</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body text-center">
-              <p>Карта нөмірі: 5169 4931 4215 6200 (Мейрамбек Сайранұлы)</p>
-              <p>Төлем жасаған соң суретін біздің менеджерге жіберуіңізді сұраймыз</p>
-              <a href="https://wa.me/77072706854?text=Сәлеметсіз бе. Мен ислам онлайн академиясына тіркелейін деп едім." target="_blank" class="btn btn-success">WhatsApp-қа жазу</a>
+                <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-5 col-md-5">
+                        <h5 class="text-center text-danger">Каспи банк картасы арқылы төлем
+                            жасау</h5>
+                          <p>Карта нөмірі: 5169 4931 4215 6200 (Мейрамбек Сайранұлы)</p>
+                          <p>Төлем жасаған соң суретін біздің менеджерге жіберуіңізді сұраймыз</p>
+                          <a href="https://wa.me/77072706854?text=Сәлеметсіз бе. Мен ислам онлайн академиясына тіркелейін деп едім."
+                            target="_blank" class="btn btn-success">WhatsApp-қа жазу</a>
+                      </div>
+                      <div class="col-lg-7 col-md-7">
+                          <div class="form">
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+                            <form action="" method="post" role="form" class="contactForm">
+                              <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="ФИО"
+                                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                              </div>
+                              <div class="form-group">
+                                <input type="tel" class="form-control" name="email" id="tel" placeholder="Телефон"
+                                  data-rule="tel" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                  data-msg="Please write something for us" placeholder="Message">Сәлеметсіз бе. Мен ислам онлайн академиясына тіркелейін деп едім.</textarea>
+                                <div class="validation"></div>
+                              </div>
+                              <div class="text-center"><button type="submit">Тіркелу</button></div>
+                            </form>
+                          </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- <div class="modal-footer">
             </div> -->
@@ -277,7 +311,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                  <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
               </figure>
 
               <div class="portfolio-info">
@@ -290,7 +324,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                  <img src="img/portfolio/lesson1.JPG" class="img-fluid" alt="">
+                <img src="img/portfolio/lesson1.JPG" class="img-fluid" alt="">
               </figure>
 
               <div class="portfolio-info">
@@ -424,14 +458,18 @@
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
               <h4 class="title"><a href=""></a></h4>
-              <p class="description">1-семестрде 60 сабақ.2-семестрде 60 сабақ.Жалпы: әрбір 5 пәннен 24 сабақ беріледі
+              <p class="description">
+                1-семестрде 60 сабақ <br>
+                2-семестрде 60 сабақ <br>
+                Жалпы: әрбір 5 пәннен 24 сабақ беріледі
               </p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href=""></a></h4>
-              <p class="description">Видео сабақтар сіздің жеке платформаңызға жүктеледі. Жеке логин, пароль болады</p>
+              <p class="description">Видео сабақтар сіздің жеке платформаңызға жүктеледі. Біздің академияға тіркелгеннен
+                кейін сізге жеке логин және пароль беріледі. Сол арқылы платформаға кіресіз</p>
             </div>
           </div>
           <div class="col-lg-6 background2 order-lg-2 order-1 wow fadeInRight"></div>
@@ -457,7 +495,7 @@
       <div class="container wow fadeInUp mt-5">
         <div class="row justify-content-center">
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-6 col-md-6">
 
             <div class="info">
               <div>
@@ -486,37 +524,6 @@
             </div>
 
           </div>
-
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                    data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required"
-                    data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-            </div>
-          </div>
-
         </div>
 
       </div>
