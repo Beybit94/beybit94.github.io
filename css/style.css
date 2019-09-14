@@ -642,7 +642,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 200px;
+  height: 250px;
   position: relative;
   background: #fafafa;
 }
@@ -688,7 +688,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .title {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 28px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -698,7 +698,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .description {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
 }
 
